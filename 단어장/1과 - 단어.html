@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>1과 단어 — 처음 뵙겠습니다</title>
   <style>
+
 body { font-family: 'Apple SD Gothic Neo', 'Noto Sans KR', sans-serif; max-width: 800px; margin: 0 auto; padding: 16px; line-height: 1.7; color: #222; background: #fafafa; }
 h1 { color: #1a1a2e; border-bottom: 2px solid #4a90d9; padding-bottom: 8px; }
 h2 { color: #2c3e6b; border-bottom: 1px solid #ccc; padding-bottom: 4px; margin-top: 2em; }
@@ -19,6 +20,7 @@ nav { background: #1a1a2e; padding: 10px 16px; margin: -16px -16px 24px; }
 nav a { color: #7fb3ff; margin-right: 12px; font-size: 0.9em; }
 p { margin: 0.6em 0; }
 ul { padding-left: 1.5em; }
+ol { padding-left: 1.5em; }
 li { margin: 0.3em 0; }
 .checkbox-done { color: #27ae60; }
 .checkbox-todo { color: #999; }
@@ -26,13 +28,17 @@ table { border-collapse: collapse; width: 100%; margin: 1em 0; }
 th, td { border: 1px solid #ccc; padding: 8px 12px; text-align: left; }
 th { background: #1a1a2e; color: #fff; }
 tr:nth-child(even) { background: #f0f4ff; }
-</style>
+code { background: #f0f4ff; padding: 2px 6px; border-radius: 4px; font-family: monospace; }
+pre { background: #f0f4ff; padding: 12px; border-radius: 8px; overflow-x: auto; }
+pre code { background: none; padding: 0; }
+
+  </style>
 </head>
 <body>
 <nav>
   <a href="../index.html">← Índice</a>
 </nav>
-<p>← 단어장 Index | 2과 → | Unidad 1 →</p>
+<p><a href="Index%20-%20단어장.html">← 단어장 Index</a> | <a href="2과%20-%20단어.html">2과 →</a> | <a href="../Unidad%201/Overview%20-%20Unidad%201.html">Unidad 1 →</a></p>
 
 <h1>1과 단어 — 처음 뵙겠습니다</h1>
 
@@ -40,104 +46,296 @@ tr:nth-child(even) { background: #f0f4ff; }
 
 <h2>정보 / Información personal</h2>
 
-<table>
-<tr><th>한국어</th><th>English</th><th>Español</th></tr>
-<tbody>
-<tr><td>성명</td><td>full name</td><td>nombre completo</td></tr>
-<tr><td>성별</td><td>sex; gender</td><td>sexo / género</td></tr>
-<tr><td>생년월일</td><td>date of birth</td><td>fecha de nacimiento</td></tr>
-<tr><td>직업</td><td>job</td><td>trabajo / ocupación</td></tr>
-<tr><td>국적</td><td>nationality</td><td>nacionalidad</td></tr>
-<tr><td>종교</td><td>religion</td><td>religión</td></tr>
-<tr><td>연락처</td><td>contact information</td><td>información de contacto</td></tr>
-<tr><td>주소</td><td>address</td><td>dirección</td></tr>
-<tr><td>전화</td><td>telephone</td><td>teléfono</td></tr>
-<tr><td>이메일</td><td>e-mail</td><td>correo electrónico</td></tr>
+<table><thead><tr>
+<th>한국어</th>
+<th>English</th>
+<th>Español</th>
+</tr></thead><tbody>
+<tr>
+<td>성명</td>
+<td>full name</td>
+<td>nombre completo</td>
+</tr>
+<tr>
+<td>성별</td>
+<td>sex; gender</td>
+<td>sexo / género</td>
+</tr>
+<tr>
+<td>생년월일</td>
+<td>date of birth</td>
+<td>fecha de nacimiento</td>
+</tr>
+<tr>
+<td>직업</td>
+<td>job</td>
+<td>trabajo / ocupación</td>
+</tr>
+<tr>
+<td>국적</td>
+<td>nationality</td>
+<td>nacionalidad</td>
+</tr>
+<tr>
+<td>종교</td>
+<td>religion</td>
+<td>religión</td>
+</tr>
+<tr>
+<td>연락처</td>
+<td>contact information</td>
+<td>información de contacto</td>
+</tr>
+<tr>
+<td>주소</td>
+<td>address</td>
+<td>dirección</td>
+</tr>
+<tr>
+<td>전화</td>
+<td>telephone</td>
+<td>teléfono</td>
+</tr>
+<tr>
+<td>이메일</td>
+<td>e-mail</td>
+<td>correo electrónico</td>
+</tr>
 </tbody></table>
 
 <hr>
 
 <h2>시간 / Frecuencia y tiempo</h2>
 
-<table>
-<tr><th>한국어</th><th>English</th><th>Español</th></tr>
-<tbody>
-<tr><td>매일</td><td>everyday</td><td>todos los días</td></tr>
-<tr><td>매주</td><td>every week</td><td>cada semana</td></tr>
-<tr><td>매달</td><td>every month</td><td>cada mes</td></tr>
-<tr><td>매년</td><td>every year</td><td>cada año</td></tr>
-<tr><td>항상</td><td>always</td><td>siempre</td></tr>
-<tr><td>자주</td><td>often</td><td>seguido / frecuentemente</td></tr>
-<tr><td>가끔</td><td>sometimes</td><td>a veces</td></tr>
-<tr><td>평일</td><td>weekday</td><td>día de semana</td></tr>
+<table><thead><tr>
+<th>한국어</th>
+<th>English</th>
+<th>Español</th>
+</tr></thead><tbody>
+<tr>
+<td>매일</td>
+<td>everyday</td>
+<td>todos los días</td>
+</tr>
+<tr>
+<td>매주</td>
+<td>every week</td>
+<td>cada semana</td>
+</tr>
+<tr>
+<td>매달</td>
+<td>every month</td>
+<td>cada mes</td>
+</tr>
+<tr>
+<td>매년</td>
+<td>every year</td>
+<td>cada año</td>
+</tr>
+<tr>
+<td>항상</td>
+<td>always</td>
+<td>siempre</td>
+</tr>
+<tr>
+<td>자주</td>
+<td>often</td>
+<td>seguido / frecuentemente</td>
+</tr>
+<tr>
+<td>가끔</td>
+<td>sometimes</td>
+<td>a veces</td>
+</tr>
+<tr>
+<td>평일</td>
+<td>weekday</td>
+<td>día de semana</td>
+</tr>
 </tbody></table>
 
 <hr>
 
 <h2>동사 / Verbos clave</h2>
 
-<table>
-<tr><th>한국어</th><th>English</th><th>Español</th></tr>
-<tbody>
-<tr><td>(이름을) 부르다</td><td>to call (a name)</td><td>llamar (por nombre)</td></tr>
-<tr><td>뵙다</td><td>to meet (humble)</td><td>conocer (forma humilde)</td></tr>
-<tr><td>(학교에) 들어가다</td><td>to enter a school</td><td>entrar a la universidad</td></tr>
-<tr><td>사오다</td><td>to buy and bring</td><td>comprar y traer</td></tr>
-<tr><td>발표하다</td><td>to have a presentation</td><td>presentar / exponer</td></tr>
-<tr><td>초대를 받다</td><td>to receive an invitation</td><td>recibir una invitación</td></tr>
-<tr><td>시간이 나다</td><td>to have (free) time</td><td>tener tiempo libre</td></tr>
+<table><thead><tr>
+<th>한국어</th>
+<th>English</th>
+<th>Español</th>
+</tr></thead><tbody>
+<tr>
+<td>(이름을) 부르다</td>
+<td>to call (a name)</td>
+<td>llamar (por nombre)</td>
+</tr>
+<tr>
+<td>뵙다</td>
+<td>to meet (humble)</td>
+<td>conocer (forma humilde)</td>
+</tr>
+<tr>
+<td>(학교에) 들어가다</td>
+<td>to enter a school</td>
+<td>entrar a la universidad</td>
+</tr>
+<tr>
+<td>사오다</td>
+<td>to buy and bring</td>
+<td>comprar y traer</td>
+</tr>
+<tr>
+<td>발표하다</td>
+<td>to have a presentation</td>
+<td>presentar / exponer</td>
+</tr>
+<tr>
+<td>초대를 받다</td>
+<td>to receive an invitation</td>
+<td>recibir una invitación</td>
+</tr>
+<tr>
+<td>시간이 나다</td>
+<td>to have (free) time</td>
+<td>tener tiempo libre</td>
+</tr>
 </tbody></table>
 
 <hr>
 
 <h2>명사 / Sustantivos</h2>
 
-<table>
-<tr><th>한국어</th><th>English</th><th>Español</th></tr>
-<tbody>
-<tr><td>이유</td><td>reason</td><td>razón / motivo</td></tr>
-<tr><td>관심</td><td>interest</td><td>interés</td></tr>
-<tr><td>중남미</td><td>Central and South America</td><td>Latinoamérica</td></tr>
-<tr><td>정도</td><td>about; around</td><td>aproximadamente</td></tr>
-<tr><td>글자</td><td>letter; character</td><td>sílaba / carácter escrito</td></tr>
-<tr><td>제일</td><td>(the) most</td><td>el más / número uno</td></tr>
-<tr><td>성 (last name)</td><td>last name</td><td>apellido</td></tr>
-<tr><td>형제들</td><td>siblings</td><td>hermanos</td></tr>
-<tr><td>스페인어</td><td>Spanish</td><td>español (idioma)</td></tr>
-<tr><td>언어</td><td>language</td><td>idioma</td></tr>
-<tr><td>문화</td><td>culture</td><td>cultura</td></tr>
-<tr><td>소설책</td><td>novel</td><td>novela</td></tr>
-<tr><td>코미디 영화</td><td>comedy movie</td><td>película de comedia</td></tr>
-<tr><td>액션 영화</td><td>action movie</td><td>película de acción</td></tr>
+<table><thead><tr>
+<th>한국어</th>
+<th>English</th>
+<th>Español</th>
+</tr></thead><tbody>
+<tr>
+<td>이유</td>
+<td>reason</td>
+<td>razón / motivo</td>
+</tr>
+<tr>
+<td>관심</td>
+<td>interest</td>
+<td>interés</td>
+</tr>
+<tr>
+<td>중남미</td>
+<td>Central and South America</td>
+<td>Latinoamérica</td>
+</tr>
+<tr>
+<td>정도</td>
+<td>about; around</td>
+<td>aproximadamente</td>
+</tr>
+<tr>
+<td>글자</td>
+<td>letter; character</td>
+<td>sílaba / carácter escrito</td>
+</tr>
+<tr>
+<td>제일</td>
+<td>(the) most</td>
+<td>el más / número uno</td>
+</tr>
+<tr>
+<td>성 (last name)</td>
+<td>last name</td>
+<td>apellido</td>
+</tr>
+<tr>
+<td>형제들</td>
+<td>siblings</td>
+<td>hermanos</td>
+</tr>
+<tr>
+<td>스페인어</td>
+<td>Spanish</td>
+<td>español (idioma)</td>
+</tr>
+<tr>
+<td>언어</td>
+<td>language</td>
+<td>idioma</td>
+</tr>
+<tr>
+<td>문화</td>
+<td>culture</td>
+<td>cultura</td>
+</tr>
+<tr>
+<td>소설책</td>
+<td>novel</td>
+<td>novela</td>
+</tr>
+<tr>
+<td>코미디 영화</td>
+<td>comedy movie</td>
+<td>película de comedia</td>
+</tr>
+<tr>
+<td>액션 영화</td>
+<td>action movie</td>
+<td>película de acción</td>
+</tr>
 </tbody></table>
 
 <hr>
 
 <h2>형용사 / Adjetivos</h2>
 
-<table>
-<tr><th>한국어</th><th>English</th><th>Español</th></tr>
-<tbody>
-<tr><td>유명하다</td><td>to be famous</td><td>ser famoso</td></tr>
-<tr><td>친하다</td><td>to be close</td><td>ser cercano / íntimo</td></tr>
-<tr><td>비슷하다</td><td>to be similar</td><td>ser parecido / similar</td></tr>
+<table><thead><tr>
+<th>한국어</th>
+<th>English</th>
+<th>Español</th>
+</tr></thead><tbody>
+<tr>
+<td>유명하다</td>
+<td>to be famous</td>
+<td>ser famoso</td>
+</tr>
+<tr>
+<td>친하다</td>
+<td>to be close</td>
+<td>ser cercano / íntimo</td>
+</tr>
+<tr>
+<td>비슷하다</td>
+<td>to be similar</td>
+<td>ser parecido / similar</td>
+</tr>
 </tbody></table>
 
 <hr>
 
 <h2>표현 / Expresiones</h2>
 
-<table>
-<tr><th>한국어</th><th>English</th><th>Español</th></tr>
-<tbody>
-<tr><td>그냥</td><td>just</td><td>simplemente / solo</td></tr>
-<tr><td>에 대해(서)</td><td>about</td><td>sobre / acerca de</td></tr>
-<tr><td>빼다</td><td>to leave out</td><td>quitar / excluir</td></tr>
+<table><thead><tr>
+<th>한국어</th>
+<th>English</th>
+<th>Español</th>
+</tr></thead><tbody>
+<tr>
+<td>그냥</td>
+<td>just</td>
+<td>simplemente / solo</td>
+</tr>
+<tr>
+<td>에 대해(서)</td>
+<td>about</td>
+<td>sobre / acerca de</td>
+</tr>
+<tr>
+<td>빼다</td>
+<td>to leave out</td>
+<td>quitar / excluir</td>
+</tr>
 </tbody></table>
 
 <hr>
 
-<p>← Index | 2과 →</p>
+<p><a href="Index%20-%20단어장.html">← Index</a> | <a href="2과%20-%20단어.html">2과 →</a></p>
 
 </body>
 </html>

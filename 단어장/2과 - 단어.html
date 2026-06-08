@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>2과 단어 — 취미가 뭐예요?</title>
   <style>
+
 body { font-family: 'Apple SD Gothic Neo', 'Noto Sans KR', sans-serif; max-width: 800px; margin: 0 auto; padding: 16px; line-height: 1.7; color: #222; background: #fafafa; }
 h1 { color: #1a1a2e; border-bottom: 2px solid #4a90d9; padding-bottom: 8px; }
 h2 { color: #2c3e6b; border-bottom: 1px solid #ccc; padding-bottom: 4px; margin-top: 2em; }
@@ -19,6 +20,7 @@ nav { background: #1a1a2e; padding: 10px 16px; margin: -16px -16px 24px; }
 nav a { color: #7fb3ff; margin-right: 12px; font-size: 0.9em; }
 p { margin: 0.6em 0; }
 ul { padding-left: 1.5em; }
+ol { padding-left: 1.5em; }
 li { margin: 0.3em 0; }
 .checkbox-done { color: #27ae60; }
 .checkbox-todo { color: #999; }
@@ -26,13 +28,17 @@ table { border-collapse: collapse; width: 100%; margin: 1em 0; }
 th, td { border: 1px solid #ccc; padding: 8px 12px; text-align: left; }
 th { background: #1a1a2e; color: #fff; }
 tr:nth-child(even) { background: #f0f4ff; }
-</style>
+code { background: #f0f4ff; padding: 2px 6px; border-radius: 4px; font-family: monospace; }
+pre { background: #f0f4ff; padding: 12px; border-radius: 8px; overflow-x: auto; }
+pre code { background: none; padding: 0; }
+
+  </style>
 </head>
 <body>
 <nav>
   <a href="../index.html">← Índice</a>
 </nav>
-<p>← 1과 | Index | 3과 →</p>
+<p><a href="1과%20-%20단어.html">← 1과</a> | <a href="Index%20-%20단어장.html">Index</a> | <a href="3과%20-%20단어.html">3과 →</a></p>
 
 <h1>2과 단어 — 취미가 뭐예요?</h1>
 
@@ -40,66 +46,194 @@ tr:nth-child(even) { background: #f0f4ff; }
 
 <h2>취미 활동 / Hobbies y actividades</h2>
 
-<table>
-<tr><th>한국어</th><th>English</th><th>Español</th></tr>
-<tbody>
-<tr><td>사진을 찍다</td><td>to take a photo</td><td>tomar una foto</td></tr>
-<tr><td>음악을 듣다</td><td>to listen to music</td><td>escuchar música</td></tr>
-<tr><td>춤을 추다</td><td>to dance</td><td>bailar</td></tr>
-<tr><td>그림을 그리다</td><td>to draw a picture</td><td>dibujar</td></tr>
-<tr><td>인형을 모으다</td><td>to collect dolls</td><td>coleccionar muñecos</td></tr>
-<tr><td>인터넷을 하다</td><td>to browse the Internet</td><td>navegar internet</td></tr>
-<tr><td>영화 감상</td><td>watching a movie</td><td>ver películas</td></tr>
-<tr><td>음악 감상</td><td>listening to music</td><td>apreciación musical</td></tr>
-<tr><td>동산</td><td>mountain climbing; hiking</td><td>escalar / senderismo</td></tr>
-<tr><td>독서</td><td>reading</td><td>lectura</td></tr>
-<tr><td>여행</td><td>traveling</td><td>viajes</td></tr>
-<tr><td>요리</td><td>cooking</td><td>cocinar</td></tr>
-<tr><td>낚시</td><td>fishing</td><td>pesca</td></tr>
-<tr><td>운동</td><td>exercise</td><td>ejercicio</td></tr>
-<tr><td>컴퓨터 게임</td><td>computer game</td><td>videojuegos</td></tr>
-<tr><td>라틴댄스</td><td>Latin dance</td><td>danza latina</td></tr>
-<tr><td>야구(를) 하다</td><td>to play baseball</td><td>jugar béisbol</td></tr>
+<table><thead><tr>
+<th>한국어</th>
+<th>English</th>
+<th>Español</th>
+</tr></thead><tbody>
+<tr>
+<td>사진을 찍다</td>
+<td>to take a photo</td>
+<td>tomar una foto</td>
+</tr>
+<tr>
+<td>음악을 듣다</td>
+<td>to listen to music</td>
+<td>escuchar música</td>
+</tr>
+<tr>
+<td>춤을 추다</td>
+<td>to dance</td>
+<td>bailar</td>
+</tr>
+<tr>
+<td>그림을 그리다</td>
+<td>to draw a picture</td>
+<td>dibujar</td>
+</tr>
+<tr>
+<td>인형을 모으다</td>
+<td>to collect dolls</td>
+<td>coleccionar muñecos</td>
+</tr>
+<tr>
+<td>인터넷을 하다</td>
+<td>to browse the Internet</td>
+<td>navegar internet</td>
+</tr>
+<tr>
+<td>영화 감상</td>
+<td>watching a movie</td>
+<td>ver películas</td>
+</tr>
+<tr>
+<td>음악 감상</td>
+<td>listening to music</td>
+<td>apreciación musical</td>
+</tr>
+<tr>
+<td>동산</td>
+<td>mountain climbing; hiking</td>
+<td>escalar / senderismo</td>
+</tr>
+<tr>
+<td>독서</td>
+<td>reading</td>
+<td>lectura</td>
+</tr>
+<tr>
+<td>여행</td>
+<td>traveling</td>
+<td>viajes</td>
+</tr>
+<tr>
+<td>요리</td>
+<td>cooking</td>
+<td>cocinar</td>
+</tr>
+<tr>
+<td>낚시</td>
+<td>fishing</td>
+<td>pesca</td>
+</tr>
+<tr>
+<td>운동</td>
+<td>exercise</td>
+<td>ejercicio</td>
+</tr>
+<tr>
+<td>컴퓨터 게임</td>
+<td>computer game</td>
+<td>videojuegos</td>
+</tr>
+<tr>
+<td>라틴댄스</td>
+<td>Latin dance</td>
+<td>danza latina</td>
+</tr>
+<tr>
+<td>야구(를) 하다</td>
+<td>to play baseball</td>
+<td>jugar béisbol</td>
+</tr>
 </tbody></table>
 
 <hr>
 
 <h2>관련 명사 / Sustantivos relacionados</h2>
 
-<table>
-<tr><th>한국어</th><th>English</th><th>Español</th></tr>
-<tbody>
-<tr><td>외국어</td><td>foreign language</td><td>idioma extranjero</td></tr>
-<tr><td>동호회</td><td>club</td><td>club de intereses</td></tr>
-<tr><td>연습실</td><td>practice room</td><td>sala de práctica</td></tr>
-<tr><td>회비</td><td>membership fee</td><td>cuota de membresía</td></tr>
-<tr><td>블로그</td><td>blog</td><td>blog</td></tr>
-<tr><td>문화 센터</td><td>cultural center</td><td>centro cultural</td></tr>
+<table><thead><tr>
+<th>한국어</th>
+<th>English</th>
+<th>Español</th>
+</tr></thead><tbody>
+<tr>
+<td>외국어</td>
+<td>foreign language</td>
+<td>idioma extranjero</td>
+</tr>
+<tr>
+<td>동호회</td>
+<td>club</td>
+<td>club de intereses</td>
+</tr>
+<tr>
+<td>연습실</td>
+<td>practice room</td>
+<td>sala de práctica</td>
+</tr>
+<tr>
+<td>회비</td>
+<td>membership fee</td>
+<td>cuota de membresía</td>
+</tr>
+<tr>
+<td>블로그</td>
+<td>blog</td>
+<td>blog</td>
+</tr>
+<tr>
+<td>문화 센터</td>
+<td>cultural center</td>
+<td>centro cultural</td>
+</tr>
 </tbody></table>
 
 <hr>
 
 <h2>동사 / Verbos</h2>
 
-<table>
-<tr><th>한국어</th><th>English</th><th>Español</th></tr>
-<tbody>
-<tr><td>가입하다</td><td>to join</td><td>unirse / registrarse</td></tr>
-<tr><td>모이다</td><td>to gather</td><td>reunirse</td></tr>
-<tr><td>(사진을) 올리다</td><td>to post a photo</td><td>publicar una foto</td></tr>
+<table><thead><tr>
+<th>한국어</th>
+<th>English</th>
+<th>Español</th>
+</tr></thead><tbody>
+<tr>
+<td>가입하다</td>
+<td>to join</td>
+<td>unirse / registrarse</td>
+</tr>
+<tr>
+<td>모이다</td>
+<td>to gather</td>
+<td>reunirse</td>
+</tr>
+<tr>
+<td>(사진을) 올리다</td>
+<td>to post a photo</td>
+<td>publicar una foto</td>
+</tr>
 </tbody></table>
 
 <hr>
 
 <h2>부사 / Adverbios</h2>
 
-<table>
-<tr><th>한국어</th><th>English</th><th>Español</th></tr>
-<tbody>
-<tr><td>아주</td><td>very</td><td>muy / bastante</td></tr>
-<tr><td>별로 + neg.</td><td>(not) particularly</td><td>no mucho / no muy</td></tr>
-<tr><td>전혀 + neg.</td><td>(not) at all</td><td>para nada / en absoluto</td></tr>
-<tr><td>참</td><td>really; very</td><td>realmente / de verdad</td></tr>
+<table><thead><tr>
+<th>한국어</th>
+<th>English</th>
+<th>Español</th>
+</tr></thead><tbody>
+<tr>
+<td>아주</td>
+<td>very</td>
+<td>muy / bastante</td>
+</tr>
+<tr>
+<td>별로 + neg.</td>
+<td>(not) particularly</td>
+<td>no mucho / no muy</td>
+</tr>
+<tr>
+<td>전혀 + neg.</td>
+<td>(not) at all</td>
+<td>para nada / en absoluto</td>
+</tr>
+<tr>
+<td>참</td>
+<td>really; very</td>
+<td>realmente / de verdad</td>
+</tr>
 </tbody></table>
 
 <blockquote>
@@ -111,15 +245,21 @@ tr:nth-child(even) { background: #f0f4ff; }
 
 <h2>기타 / Otros</h2>
 
-<table>
-<tr><th>한국어</th><th>English</th><th>Español</th></tr>
-<tbody>
-<tr><td>여러 가지</td><td>various kinds</td><td>varios tipos</td></tr>
+<table><thead><tr>
+<th>한국어</th>
+<th>English</th>
+<th>Español</th>
+</tr></thead><tbody>
+<tr>
+<td>여러 가지</td>
+<td>various kinds</td>
+<td>varios tipos</td>
+</tr>
 </tbody></table>
 
 <hr>
 
-<p>← 1과 | Index | 3과 →</p>
+<p><a href="1과%20-%20단어.html">← 1과</a> | <a href="Index%20-%20단어장.html">Index</a> | <a href="3과%20-%20단어.html">3과 →</a></p>
 
 </body>
 </html>

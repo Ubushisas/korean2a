@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Context — Korean 2A Vault</title>
+  <style>
+
+body { font-family: 'Apple SD Gothic Neo', 'Noto Sans KR', sans-serif; max-width: 800px; margin: 0 auto; padding: 16px; line-height: 1.7; color: #222; background: #fafafa; }
+h1 { color: #1a1a2e; border-bottom: 2px solid #4a90d9; padding-bottom: 8px; }
+h2 { color: #2c3e6b; border-bottom: 1px solid #ccc; padding-bottom: 4px; margin-top: 2em; }
+h3 { color: #3a5080; margin-top: 1.5em; }
+a { color: #4a90d9; text-decoration: none; }
+a:hover { text-decoration: underline; }
+blockquote { border-left: 4px solid #4a90d9; margin: 1em 0; padding: 8px 16px; background: #eef4ff; border-radius: 0 8px 8px 0; color: #333; }
+strong { color: #c0392b; }
+em { color: #555; }
+hr { border: none; border-top: 1px solid #ddd; margin: 2em 0; }
+nav { background: #1a1a2e; padding: 10px 16px; margin: -16px -16px 24px; }
+nav a { color: #7fb3ff; margin-right: 12px; font-size: 0.9em; }
+p { margin: 0.6em 0; }
+ul { padding-left: 1.5em; }
+ol { padding-left: 1.5em; }
+li { margin: 0.3em 0; }
+.checkbox-done { color: #27ae60; }
+.checkbox-todo { color: #999; }
+table { border-collapse: collapse; width: 100%; margin: 1em 0; }
+th, td { border: 1px solid #ccc; padding: 8px 12px; text-align: left; }
+th { background: #1a1a2e; color: #fff; }
+tr:nth-child(even) { background: #f0f4ff; }
+code { background: #f0f4ff; padding: 2px 6px; border-radius: 4px; font-family: monospace; }
+pre { background: #f0f4ff; padding: 12px; border-radius: 8px; overflow-x: auto; }
+pre code { background: none; padding: 0; }
+
+  </style>
+</head>
+<body>
+<nav>
+  <a href="index.html">← Índice</a>
+</nav>
+<h1>AI Context — Korean 2A Vault</h1>
+
+<p><em>Lee esto antes de empezar a trabajar. No le preguntes a Pedro cosas que ya están aquí.</em></p>
+
+<hr>
+
+<h2>Quién es Pedro</h2>
+
+<ul>
+<li>Estudia coreano en <strong>서울대학교 한국어 2A</strong> (Seoul National University, nivel 2A)</li>
+<li>Nivel: <strong>A1</strong> — recién empezando, necesita explicaciones simples</li>
+<li>Idioma de trabajo: <strong>español</strong> (también entiende inglés)</li>
+<li>Clase: lunes y miércoles (aprox.), con tareas y conversaciones en el libro</li>
+</ul>
+
+<hr>
+
+<h2>Qué es este vault</h2>
+
+<p>Un sistema de estudio en Obsidian para el curso 2A. Cada unidad tiene:</p>
+<ul>
+<li>Reglas gramaticales (Grammar X-X)</li>
+<li>Conversaciones del libro (Speaking, Listening)</li>
+<li>Vocab de clase</li>
+<li>Ejercicios escritos</li>
+<li>Lecturas del libro</li>
+</ul>
+
+<p>Estructura de carpetas:</p>
+<pre><code>
+Korean 2A/
+├── Unidad 1/    — 언어 교환
+├── Unidad 2/    — 취미가 뭐예요?
+├── Unidad 3/    — 콘서트에 가 봤어요?
+├── 단어장/       — vocabulario oficial del curso (todas las unidades)
+├── Index.md
+├── To-Do.md
+├── 문법 해설 - Grammar Reference.md
+└── AI-Context.md  ← este archivo
+</code></pre>
+
+<hr>
+
+<h2>Convenciones establecidas — NO cambiar sin pedírselo a Pedro</h2>
+
+<h3>Archivos de gramática</h3>
+
+<p>Cada archivo de gramática tiene este header estándar al inicio:</p>
+
+<pre><code>
+**📌 Lo que hace:** [explicación simple, 1 línea]
+**🇰🇷 Estructura:** [patrón con + entre partes]
+**🇪🇸 Español:** &quot;frase en español&quot; → frase en coreano con **negrita** en la parte nueva
+**🇬🇧 English:** &quot;phrase in English&quot; → frase en coreano con **negrita** en la parte nueva
+</code></pre>
+
+<p>Bajo cada ejemplo del libro va una línea de breakdown en español usando <code>()</code> — NUNCA <code>[]</code> (Obsidian los interpreta como wikilinks):</p>
+
+<pre><code>
+&gt; 예문 coreano
+&gt; *Traducción al español*
+&gt; *parte 1* (tipo) → *parte 2* (tipo)
+</code></pre>
+
+<p>Tipos usados en los breakdowns: <code>(contexto)</code>, <code>(pregunta)</code>, <code>(comentario)</code>, <code>(petición)</code>, <code>(habilidad)</code>, <code>(negación)</code>, <code>(info adicional)</code>, <code>(la acción)</code>, <code>(el resultado)</code>, etc.</p>
+
+<h3>Archivos de conversación (Speaking/Listening)</h3>
+
+<ul>
+<li>Los nombres de personajes o roles (<strong>화자1</strong>, <strong>화자2</strong>, <strong>A</strong>, <strong>B</strong>, <strong>남자</strong>, <strong>여자</strong>, nombres propios) van siempre en <strong>negrita</strong></li>
+<li>Estructura: primero bloque en coreano, luego sección <code>## Traducción</code> con el mismo diálogo en español</li>
+<li>Las reglas gramaticales que aparecen en el texto van en <strong>negrita</strong> dentro de la frase</li>
+</ul>
+
+<h3>Numeración de gramática</h3>
+
+<pre><code>
+문법과 표현 1 → Grammar 1-1, Grammar 1-2
+문법과 표현 2 → Grammar 2-1, Grammar 2-2, Grammar 2-3
+</code></pre>
+
+<p>Cada unidad tiene sus propios números (Unidad 2 tiene su propio G1-1, etc.)</p>
+
+<h3>Navegación entre archivos</h3>
+
+<p>Todos los archivos tienen links al inicio y al final: <code>&lt;a href=&quot;Index.html&quot;&gt;← Índice&lt;/a&gt;</code> y links al archivo anterior/siguiente de la misma sección.</p>
+
+<hr>
+
+<h2>Reglas gramaticales cubiertas hasta ahora</h2>
+
+<h3>Unidad 1</h3>
+<ul>
+<li>G1-1: N(이)라고 하다 — cómo se llama algo</li>
+<li>G1-2: V-(으)려고 — para qué haces algo</li>
+<li>G2-1: V-거나 — o (verbos)</li>
+<li>G2-2: N(이)나 — o (sustantivos)</li>
+</ul>
+
+<h3>Unidad 2</h3>
+<ul>
+<li>G1-1: V-는 것 — nominalizar verbos → 는 게/걸/건 coloquial</li>
+<li>G1-2: V-(으)ㄹ 줄 알다/모르다 — saber/no saber hacer algo</li>
+<li>G2-1: V-(으)ㄴ N — modificador nominal pasado</li>
+<li>G2-2: A/V-지 않다 — negación formal; diferencia con 안</li>
+</ul>
+
+<h3>Unidad 3</h3>
+<ul>
+<li>G1-1: V-아/어 보다 — experiencia / intentar</li>
+<li>G1-2: N 동안 — duración de tiempo; días nativos 하루~열흘</li>
+<li>G2-1: A-(으)ㄴ데 / V-는데 — dar contexto antes de decir algo</li>
+<li>G2-2: N인데 — igual que -는데 pero con sustantivos</li>
+<li>G2-3: V-(으)ㄹ N — modificador nominal futuro</li>
+</ul>
+
+<hr>
+
+<h2>Cosas importantes que Pedro ha corregido (no repetir estos errores)</h2>
+
+<ol>
+<li><strong>No inventar ejemplos del libro</strong> — si Pedro dice que el ejemplo viene del libro, es exacto. No "mejorar" ni parafrasear.</li>
+<li><strong>No usar <code>[]</code> en texto</strong> — Obsidian lo toma como wikilink. Usar <code>()</code> siempre para etiquetas y breakdowns.</li>
+<li><strong>No usar tablas en archivos de lectura/conversación</strong> — Pedro lee en Kindle y las tablas no se ven bien. Usar listas o texto plano.</li>
+<li><strong>Los breakdowns en español van debajo del ejemplo</strong>, no al lado ni antes.</li>
+<li><strong>El header de gramática es fijo</strong> — 4 líneas con los 4 íconos (📌🇰🇷🇪🇸🇬🇧). No agregar ni quitar líneas.</li>
+<li><strong>Días nativos coreanos solo existen hasta 열흘 (10 días)</strong> — después se usa sino-coreano.</li>
+</ol>
+
+<hr>
+
+<h2>Sitio web</h2>
+
+<p>El vault también está publicado como sitio estático en:</p>
+<p><strong>https://ubushisas.github.io/korean2a/</strong></p>
+<p>Repo: <code>Ubushisas/korean2a</code> en GitHub (rama <code>main</code>)</p>
+
+<p>Para redesplegar hay que convertir los <code>.md</code> a HTML y hacer push. Pedro generalmente lo pide explícitamente.</p>
+
+<hr>
+
+<h2>Archivos de referencia clave</h2>
+
+<table><thead><tr>
+<th>Archivo</th>
+<th>Para qué sirve</th>
+</tr></thead><tbody>
+<tr>
+<td><code>Index.md</code></td>
+<td>Índice principal con todos los links</td>
+</tr>
+<tr>
+<td><code>To-Do.md</code></td>
+<td>Tareas pendientes y preguntas resueltas de clase</td>
+</tr>
+<tr>
+<td><code>문법 해설 - Grammar Reference.md</code></td>
+<td>Resumen del apéndice gramatical del libro (1과–3과)</td>
+</tr>
+<tr>
+<td><code>Unidad 3/Números - 시간 표현.md</code></td>
+<td>Guía completa sino-coreano vs nativo, 동안, contadores</td>
+</tr>
+</tbody></table>
+
+<hr>
+
+<p><em>Actualizado: Junio 8, 2026</em></p>
+
+</body>
+</html>
